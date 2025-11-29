@@ -1,8 +1,8 @@
 * {
+    box-sizing: border-box;
 	margin: 0;
 	padding: 0;
     border: 0;
-    box-sizing: border-box;
 }
 body {
 	font-family: Roboto, sans-serif;
@@ -26,11 +26,6 @@ header h1 {
 .hero h1 {
 	font-size: 48px;
 	color: #F9FAF8;
-	font-weight: 900;
-}
-h2 {
-	font-size: 36px;
-	color: #1F2937;
 	font-weight: 900;
 }
 .call-to-action {
@@ -105,12 +100,17 @@ button, .copyright, .call-to-action {
 }
 .copyright, h2 {
 	display: flex;
-    margin: 30px auto;
     justify-content: center;
     align-items: center;
 }
 .copyright {
     padding: 40px;
+}
+h2 {
+	font-size: 36px;
+    margin: 30px auto;
+	color: #1F2937;
+	font-weight: 900;
 }
 p {
     font-size: 18px;
